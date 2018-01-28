@@ -41,3 +41,14 @@ joblib.dump(tf_text, 'text_vectorizer.pkl')
 
 joblib.dump(title_clf, 'title_clf.pkl')
 joblib.dump(text_clf, 'text_clf.pkl')
+
+def classifier(title,text):
+    '''
+	takes input text and title and returns the prediction
+    '''
+    temp = tf_title.transform([title])
+    vec_title = temp.toarray()
+    temp = tf_text.transform([text])
+    vec_text = temp.toarray()
+    
+    return text_clf.predict(vec_text),title_clf.predict(vec_title)
