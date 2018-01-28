@@ -42,7 +42,7 @@ joblib.dump(tf_text, 'text_vectorizer.pkl')
 joblib.dump(title_clf, 'title_clf.pkl')
 joblib.dump(text_clf, 'text_clf.pkl')
 
-def classifier(title,text):
+def Classifier(title,text):
     '''
 	takes input text and title and returns the prediction
     '''
