@@ -34,6 +34,9 @@ To understand a little better on how a perceptron works(kinda) read a little abo
 
 # Working:
 
+## Dataset used :
+https://www.kaggle.com/mrisdal/fake-news/data
+
 1.  Feature Extraction
 
 The first step is the feature extraction step is done with the help of [two bag of words](https://www.youtube.com/watch?v=T1O3ikmTEdA) (see the peter norvig video to understand it a bit)
