@@ -25,7 +25,7 @@ Read the above article to understand different types of fake news
 Our machine learning model is made to help the fact checkers and not replace them. It reduces the time to to check articles by giving insights to the fact checker as to what level of scrutiny it should use for the particular article.
 
 # Technical details:
-
+NOTE: perceptron has been replaced with - SGDClassifier (to reduce Out of memory error)
 The entire project can be categorized under two words - [Stance Detection](https://web.stanford.edu/class/cs224n/reports/2754942.pdf)
 Stance detection  can be defined as detecting whether the author of a piece of text is in favor of the given target or against it.
 Our stance detection model is an end to end model with lexical and feature extractors that feed the multi layer perceptron.
